@@ -1,6 +1,7 @@
 # `ipython-math-syntax`
 
 Write textbook mathematical notation—implicit multiplication (`2x`), superscripts (`x²`), roots (`√x`, `∛x`), integrals (`∫₀¹ 3x² dx`), derivatives (`d/dx`, `∂²/∂x∂y`, `∂ₓ`, `f′(x)`, `ẋ`), vector calculus (`∇`, `∇⋅`, `∇×`, `∇²`), Einstein summation (`ein(Aᵢⱼ Bⱼₖ)`), Kronecker & Levi-Civita tensors (`δᵢⱼ`, `εᵢⱼₖ`), Dirac bra-kets (`|0⟩`, `⟨+|σ_x|+⟩`), and more—directly inside **Jupyter Notebooks**, **JupyterLab**, and **IPython**.
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/69a6e011-dcbe-4194-8643-61cfb4e94ee0" />
 
 ---
 
