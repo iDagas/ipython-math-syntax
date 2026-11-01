@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipython-math-syntax"
+version = "0.1.0"
+description = "Write textbook mathematical notation (2x, x², √x, ∫, ∂/∂x, ∇, δᵢⱼ, εᵢⱼₖ, ein, |0⟩) directly in Jupyter & IPython."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "ipython>=7.0",
+    "sympy>=1.10",
+    "numpy>=1.20",
+]
+keywords = ["jupyter", "ipython", "math", "sympy", "unicode", "calculus", "tensors", "quantum"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: IPython",
+    "Framework :: Jupyter",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["math_syntax*"]
