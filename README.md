@@ -14,7 +14,7 @@ pip install .
 Or install directly from GitHub:
 
 ```bash
-pip install git+https://github.com/YOUR_USERNAME/ipython-math-syntax.git
+pip install git+https://github.com/iDagas/ipython-math-syntax.git
 ```
 
 ## Quick Start
